@@ -12,7 +12,7 @@ async function globalSetup(config) {
   const { storageState } = config.projects[0].use;
   const browser = await chromium.launch({ headless: false });
   const page = await browser.newPage();
-  const password = 'nttdata.124';
+  const password = '';
   console.log(typeof password); // Debería imprimir 'string'
 
 
